@@ -252,5 +252,385 @@ border-radius: 12px;
 margin-top: 47px;
 }
 /* ============================== gallery end hree ======================= */
+/* ======== about section start here ======= */
+.heading_item{
+    padding: 140px 0;
+}
+.about_item h4{
+    color: #289BDE;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.about_item h2{
+    color: #071B27;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 4px;
+}
+.about_item p{
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    max-width: 613px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.about_item_wrapper{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+.about_under{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.about_under:nth-child(even){
+    flex-direction: row-reverse;
+}
+.about_item_picture{
+    width: 454px;
+    height: 485px;
+    border-radius: 5px;
+    background-color: #28de74;
+    overflow: hidden;
+}
+.about_item_element{
+    color: #07003B;
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+}
+.about_item_element p{
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 41px;
+    width: 786px;
+    margin-top: 10px;
+}
+.about_item_picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ======== about section end here ======= */
+/* ======== services start here ======= */
+#services{
+    padding: 157px 0;
+    background: #071B27;
+}
+#services .services_headline h3{
+    color: #FFF;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+#services .services_headline h2{
+    color: #FFF;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+#services .sidebyside{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+#services .sidebyside .left{
+    border: 1px solid #FFF;
+    width: 650px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255,0.1);
+    padding: 40px;
+}
+#services .sidebyside .left img{
+    width: 100%;
+    border-radius: 2px;
+}
+#services .sidebyside .left h4{
+    color: #FFF;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 44px;
+}
+#services .sidebyside .left h4 i{
+    margin-left: 9px;
+}
+#services .sidebyside .left li{
+    color: #FFF;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    padding-left: 50px;
+    margin-top: 24px;
+}
+#services .sidebyside .left li strong{
+    color: #289BDE;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+#services .sidebyside .left li i{
+    width: 20.553px;
+    height: 24px;
+    color: #289BDE;
+    border-radius: 5px;
+    border: 1px solid #289BDE;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+/* ======== services end here ======= */
+/* ======== coomitment start here ======= */
+#commitment{
+    margin: 140PX 0;
+}
+#commitment .sidebyside{
+    display: flex;
+    justify-content: space-between;
+}
+#commitment h2{
+    color: #071B27;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    width: 451px;
+    margin-bottom: 33px;
+}
+#commitment .mv{
+    width: 479px;
+    position: relative;
+    padding-left: 60px;
+    margin-top: 21px;
+}
+#commitment .mv h4{
+    color: #071B27;
+    font-family: poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.26px;
+    margin-bottom: 12px;
+}
+#commitment .mv p{
+    color: #666;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.16px;
+}
+#commitment .mv i{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: #289BDE;
+    text-align: center;
+    line-height: 47px;
+    position: absolute;
+    color: #FFF;
+    left: 0;
+    top: 0;
+}
+/* ======== commitment end here ======= */
+/* ======== testimonial start here ======= */
+#testimonial .testimonial_heading h4{
+    color: #289BDE;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+#testimonial .testimonial_heading h2{
+    color: #071B27;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#testimonial .testimonial_heading p{
+    color: #666;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    width: 628px;
+    margin: 0 auto;
+}
+#testimonial .sidebyside{
+    margin-top: 58px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+#testimonial .testibox {
+    width: 431px;
+    border: 1px solid rgba(102, 102, 102, 0.40);
+    border-radius: 5px;
+    padding: 17px 15px;
+}
+#testimonial .testibox .top{
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+}
+#testimonial .testibox .top .details h4{
+    color: #071B27;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+#testimonial .testibox .top .details i{
+    color: #FFB906;
+}
+#testimonial .testibox .bottom p {
+    color: #666;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 27px;
+    padding: 0 12px;
+}
+/* ======== testimonial end here ======= */
+/* ======== community start here ======= */
+#community{
+    margin-top: 144px;
+}
+#community .community_heading h4{
+    color: #289BDE;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+#community .community_heading h2{
+    color: #071B27;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#community .community_heading p{
+    color: #666;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    width: 628px;
+    margin: 0 auto;
+}
+#community .sidebyside{
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#community .sidebyside .left a{
+    color: #071B27;
+    font-family: poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.26px;
+    text-decoration: solid underline ;
+}
+#community .sidebyside .left i{
+    margin-left: 6px;
+}
+#community .sidebyside a{
+    display: inline-block;
+    margin-bottom: 12px;
+}
+#community .sidebyside .details{
+    position: relative;
+    padding-left: 40px;
+    margin-top: 25px;
+}
+#community .sidebyside .details h3{
+    color: #071B27;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+}
+#community .sidebyside .details p{
+    margin-top: 9px;
+    color: #666;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+    width: 405px;
+}
+#community .sidebyside .details i{
+    position: absolute;
+    left: -5px;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background-color: #289BDE;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 24px;
+    color: #FFF;
+
+}
+#community .down{
+    display: flex;
+    justify-content: center;
+}
+#community .button {
+    display: inline-block;
+    color: #FFF;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 600;
+    line-height: normal;
+    padding: 13px 28px;
+    border-radius: 5px;
+    background-color: #289BDE;
+    margin-top: 60px;
+    text-align: center;
+}
+/* ======== community end here ======= */
 
 
